@@ -9,7 +9,8 @@ public class Start {
     // Constructor
     public Start() {
         window = new JFrame("Calculator"); // initialize window
-        window.setSize(280, 350);
+        window.setSize(264, 345);
+        window.add(new Panel()); // add panel
         window.setLocationRelativeTo(null); // location in the center
         window.setResizable(false); // size is immutable
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // closes by clicking on 'close'
